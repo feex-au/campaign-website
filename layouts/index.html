@@ -1,273 +1,90 @@
 {{ define "og_tags" }}
-    <meta property="og:url" content="{{ .Page.Permalink }}" />
-    <meta property="og:type" content="article" />
-    <meta property="og:title" content="FEEX - The HOME UPKEEP SPECIALIST 🛠👷‍️" />
-    <meta property="og:description" content="Feex any home issues taking a video on your phone" />
-    <meta property="og:image" content="{{ .Site.BaseURL }}images/og_feex_logo_bianco.png" />
+<meta property="og:url" content="{{ .Page.Permalink }}" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="FEEX - The HOME UPKEEP SPECIALIST 🛠👷‍️" />
+<meta property="og:description" content="Feex any home issues taking a video on your phone" />
+<meta property="og:image" content="{{ .Site.BaseURL }}images/og_feex_logo_bianco.png" />
 {{ end }}
 
-
 {{ define "main" }}
-    <header class="bg-primary text-white text-center feex-header bg-no-repeat bg-cover pb-16">
-        <div class="site-width">
-            <nav class="pt-4">
-                <div class="flex flex-row items-center justify-between">
-                    <div class="h-12 lg:h-16">
-                        <a href="/"><img alt="Feex Logo" class="p-2 w-28 lg:px-3 lg:py-2 lg:w-40" src="images/logo_white.svg"></a>
-                    </div>
-                    <div class="h-10 w-10 text-white pr-2 pt-1 cursor-pointer md:hidden" id="burger">
-                        <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path d="M4 6h16M4 12h16M4 18h16" strokeLinecap="round" strokeLinejoin="round"
-                                strokeWidth={2} />
-                        </svg>
-                    </div>
-
-                    <div class="hidden text-sm md:flex md:justify-around lg:text-lg text-white uppercase">
-                        <a class="hover:text-secondary px-3" href="#how">How it works?</a>
-                        <a class="hover:text-secondary px-3" href="#features">Features</a>
-                        <a class="hover:text-secondary px-3" href="#community">Join us!</a>
-                    </div>
-                </div>
-
-                <!-- The menu shown when the burger is pressed -->
-                <div class="hidden text-white pl-8 pb-1 uppercase text-sm sm:text-base" id="menu">
-                    <a class="block hover:text-secondary" href="#how">How it works?</a>
-                    <a class="block hover:text-secondary" href="#features">Features</a>
-                    <a class="block hover:text-secondary" href="#community">Join us!</a>
-                </div>
-
-            </nav>
-
-
-            <a name="home"></a>
-            <div class="flex flex-col justify-center lg:flex-row lg:justify-between">
-                <div class="pl-8 pt-4 flex flex-col justify-center lg:w-1/2">
-                    <!-- Info and store icons -->
-                    <h1 class="text-gray-200 text-5xl font-bold md:text-6xl">
-                        Feex any <br/>home issue
-                    </h1>
-                    <h2 class="pt-4 text-gray-300 text-2xl md:tracking-wide">
-                        it’s as simple as<br >taking a video on your phone
-                    </h2>
-                    <div class="pb-3 pt-1 flex flex-row items-center justify-evenly sm:justify-center lg:justify-around lg:pt-6">
-                        <button class="download"><a href="https://m.me/feex.au">FEEX Now!</a></button>
-                    </div>
-                </div>
-
-                <div class="block xs:w-1/3 sm:w-3/5 sm:mx-auto lg:w-1/2">
-                    {{ partial "picture.html" (dict "class" "my-3 inline" "alt" "Tradie in the phone" "image" "images/feex_header") }}
-                </div>
-            </div>
-
+<header class="bg-primary text-white text-center feex-header bg-no-repeat bg-cover pb-16">
+  <div class="site-width">
+    <nav class="pt-4">
+      <div class="flex flex-row items-center justify-between">
+        <div class="h-12 lg:h-16">
+          <a href="/"><img alt="Feex Logo" class="p-2 w-28 lg:px-3 lg:py-2 lg:w-40" src="images/logo_white.svg"></a>
         </div>
-    </header>
+        <div class="h-10 w-10 text-white pr-2 pt-1 cursor-pointer md:hidden" id="burger">
+          <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M4 6h16M4 12h16M4 18h16" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} />
+          </svg>
+        </div>
+        <div class="hidden text-sm md:flex md:justify-around lg:text-lg text-white uppercase">
+          <a class="hover:text-secondary px-3" href="#how">How it works?</a>
+          <a class="hover:text-secondary px-3" href="#features">Features</a>
+          <a class="hover:text-secondary px-3" href="#community">Join us!</a>
+        </div>
+      </div>
 
-<a name="how"></a>
+      <!-- The menu shown when the burger is pressed -->
+      <div class="hidden text-white pl-8 pb-1 uppercase text-sm sm:text-base" id="menu">
+        <a class="block hover:text-secondary" href="#how">How it works?</a>
+        <a class="block hover:text-secondary" href="#features">Features</a>
+        <a class="block hover:text-secondary" href="#community">Join us!</a>
+      </div>
+    </nav>
+    <a name="home"></a>
+    <div class="flex flex-col justify-center lg:flex-row lg:justify-between">
+      <div class="pl-8 pt-4 flex flex-col justify-center lg:w-1/2">
+        <!-- Info and store icons -->
+        <h1 class="text-gray-200 text-5xl font-bold md:text-6xl">
+          Feex any <br/>home issue
+        </h1>
+        <h2 class="pt-4 text-gray-300 text-2xl md:tracking-wide">
+          it’s as simple as<br >taking a video on your phone
+        </h2>
+        <div class="pb-3 pt-1 flex flex-row items-center justify-evenly sm:justify-center lg:justify-around lg:pt-6">
+          <button class="download"><a href="https://m.me/feex.au">FEEX Now!</a></button>
+        </div>
+      </div>
+      <div class="block xs:w-1/3 sm:w-3/5 sm:mx-auto lg:w-1/2">
+        {{ partial "picture.html" (dict "class" "my-3 inline" "alt" "Tradie in the phone" "image" "images/feex_header") }}
+      </div>
+    </div>
+  </div>
+</header>
+
 <div class="bg-tertiary py-10">
-    <section class="site-width">
-        <div class="aspect-w-16 aspect-h-9">
-            {{ partial "youtube-promo.html" }}
-        </div>
-    </section>
+  <section class="site-width">
+    <div class="px-6">
+      <p class="text-base font-semibold leading-7 text-indigo-600">Find out why</p>
+      <h1 class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">The why behind Feex</h1>
+      <p class="mt-6 text-xl leading-8 text-gray-700">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas bibendum justo in mauris eleifend, non finibus purus accumsan. Phasellus lacinia in augue eget fermentum. Integer vel viverra lorem, sit amet imperdiet sem. Vivamus vel augue metus. Fusce et vestibulum felis. Sed metus odio, lacinia ut velit eu, porta blandit lacus. Ut sit amet sollicitudin orci. Cras lacinia luctus risus, ac feugiat metus malesuada sit amet. Fusce vel vehicula turpis. Donec dictum auctor lacus, at congue leo. Suspendisse vehicula diam a libero pharetra convallis et vel massa.
+      </p>
+      <p class="mt-6 text-xl leading-8 text-gray-700">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas bibendum justo in mauris eleifend, non finibus purus accumsan. Phasellus lacinia in augue eget fermentum. Integer vel viverra lorem, sit amet imperdiet sem. Vivamus vel augue metus. Fusce et vestibulum felis. Sed metus odio, lacinia ut velit eu, porta blandit lacus. Ut sit amet sollicitudin orci. Cras lacinia luctus risus, ac feugiat metus malesuada sit amet. Fusce vel vehicula turpis. Donec dictum auctor lacus, at congue leo. Suspendisse vehicula diam a libero pharetra convallis et vel massa.
+      </p>
+    </div>
+
+    <div class="px-6">
+      <h2 class="mt-8 text-2xl font-semibold tracking-tight text-gray-700 sm:text-2xl">The current state of home repairs</h2>
+      <p class="mt-6 text-xl leading-8 text-gray-700">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas bibendum justo in mauris eleifend, non finibus purus accumsan. Phasellus lacinia in augue eget fermentum. Integer vel viverra lorem, sit amet imperdiet sem. Vivamus vel augue metus. Fusce et vestibulum felis. Sed metus odio, lacinia ut velit eu, porta blandit lacus. Ut sit amet sollicitudin orci. Cras lacinia luctus risus, ac feugiat metus malesuada sit amet. Fusce vel vehicula turpis. Donec dictum auctor lacus, at congue leo. Suspendisse vehicula diam a libero pharetra convallis et vel massa.
+      </p>
+    </div>
+
+    <div class="px-6">
+      <h2 class="mt-8 text-2xl font-semibold tracking-tight text-gray-700 sm:text-2xl">Our vision</h2>
+      <p class="mt-6 text-xl leading-8 text-gray-700">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas bibendum justo in mauris eleifend, non finibus purus accumsan. Phasellus lacinia in augue eget fermentum. Integer vel viverra lorem, sit amet imperdiet sem. Vivamus vel augue metus. Fusce et vestibulum felis. Sed metus odio, lacinia ut velit eu, porta blandit lacus. Ut sit amet sollicitudin orci. Cras lacinia luctus risus, ac feugiat metus malesuada sit amet. Fusce vel vehicula turpis. Donec dictum auctor lacus, at congue leo. Suspendisse vehicula diam a libero pharetra convallis et vel massa.
+      </p>
+    </div>
+
+    <div class="pb-3 pt-1 flex flex-row items-center justify-evenly sm:justify-center lg:justify-around lg:pt-6">
+      <button class="download"><a href="https://m.me/feex.au">FEEX Now!</a></button>
+    </div>
+  </section>
 </div>
 
-    <!-- Steps -->
-    <a name="how"></a>
-    <div class="bg-tertiary py-10">
-        <section class="site-width">
-            <header class="text-center my-12">
-                <h1 class="text-primary font-extrabold text-5xl xl:text-6xl">How it works?</h1>
-                <h2 class="text-gray-700 mt-1 text-lg md:text-xl xl:text-3xl">Get your problem solved in 3 simple steps</h2>
-            </header>
-
-            <!-- Step1 -->
-            <article class="flex flex-col-reverse items-center justify-center lg:flex-row">
-                <div class="">
-                    <!-- Step and text -->
-                    <div class="flex flex-row items-start justify-center lg:block">
-                        <!-- Step shape -->
-                        <div class="w-20 sm:w-24 lg:my-4 lg:float-right lg:-mr-6">
-                            <div class="bg-primary text-2xl sm:text-4xl font-bold text-white w-12 h-12
-                                        sm:w-16 sm:h-16 transform rotate-45 rounded-lg shadow-md">
-                                <div class="relative">
-                                    <div class="absolute h-1/2 w-full transform -rotate-45">1</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="flex flex-col w-2/3 lg:w-full">
-                            <h1 class="step-h1 lg:text-right">Show us your problem</h1>
-                            <h2 class="step-h2 lg:text-right">Simply take a video on your phone <br class="xs:hidden"/>and send to us <span>using our bot.</span></h2>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="w-5/6 md:w-4/6 my-4">
-                    {{ partial "picture.html" (dict "class" "w-full" "alt" "Make a video" "image" "images/step1") }}
-                </div>
-            </article>
-
-            <!-- Step 2 -->
-            <article class="flex flex-col-reverse items-center justify-center lg:flex-row-reverse">
-                <div class="">
-                    <!-- Step and text -->
-                    <div class="flex flex-row items-start justify-center lg:block">
-                        <!-- Step shape -->
-                        <div class="w-20 sm:w-24 lg:my-4 lg:float-left lg:-mr-6">
-                            <div class="bg-primary text-2xl sm:text-4xl font-bold text-white w-12 h-12
-                                        sm:w-16 sm:h-16 transform rotate-45 rounded-lg shadow-md">
-                                <div class="relative">
-                                    <div class="absolute h-1/2 w-full transform -rotate-45">2</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="flex flex-col w-2/3 lg:w-full">
-                            <h1 class="step-h1 lg:text-left">We will connect you with an expert</h1>
-                            <h2 class="step-h2 lg:text-left">We make it easy to find you a solution</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="w-5/6 md:w-4/6 my-4">
-                    {{ partial "picture.html" (dict "class" "w-full" "alt" "Get the call back" "image" "images/step2") }}
-                </div>
-            </article>
-
-            <!-- Step3 -->
-            <article class="flex flex-col-reverse items-center justify-center lg:flex-row">
-                <div class="">
-                    <!-- Step and text -->
-                    <div class="flex flex-row items-start justify-center lg:block">
-                        <!-- Step shape -->
-                        <div class="w-20 sm:w-24 lg:my-4 lg:float-right lg:-mr-6">
-                            <div class="bg-primary text-2xl sm:text-4xl font-bold text-white w-12 h-12
-                                        sm:w-16 sm:h-16 transform rotate-45 rounded-lg shadow-md">
-                                <div class="relative">
-                                    <div class="absolute h-1/2 w-full transform -rotate-45">3</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="flex flex-col w-2/3 lg:w-full">
-                            <h1 class="step-h1 lg:text-right">An Expert is on the way!</h1>
-                            <h2 class="step-h2 lg:text-right">We send out a qualified expert to Feex your problem</h2>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="w-5/6 md:w-4/6 my-4">
-                    {{ partial "picture.html" (dict "class" "w-full" "alt" "Enjoy the FEEX" "image" "images/step4") }}
-                </div>
-            </article>
-        </section>
-    </div>
-
-    <!-- Still unsure -->
-    <a name="features"></a>
-    <div class="bg-white py-16 md:py-32">
-        <section class="site-width">
-
-            <header class="text-center my-6 lg:my-12">
-                <h1 class="text-primary font-extrabold text-5xl xl:text-6xl">Still unsure?</h1>
-                <h2 class="text-gray-700 text-base lg:text-xl xl:text-2xl mt-1 uppercase font-sans">Feex is the specialist of the
-                    home upkeep</h2>
-            </header>
-
-            <div class="font-sans grid sm:grid-cols-2 lg:grid-cols-3 gap-10 m-10">
-
-                <div class="" id="feature-easy">
-                    <img alt="Easy to use" class="h-16 mx-auto" src="images/easy.svg">
-                    <h1 class="feature-title">Easy to use</h1>
-                    <h2 class="feature-description">Simply record a video showing and explaining the problem and let Feex do the rest</h2>
-                </div>
-                <div class="" id="feature-providers">
-                    <img alt="Providers" class="h-16 mx-auto" src="images/sorted.svg">
-                    <h1 class="feature-title">Get sorted</h1>
-                    <h2 class="feature-description">Feex can help you find providers instantly that are ready to perform their job ASAP or whenever you ask for it</h2>
-                </div>
-
-                <div class="" id="feature-anxiety-free">
-                    <img alt="Anxiety Free" class="h-16 mx-auto" src="images/anxiety_free.svg">
-                    <h1 class="feature-title">Stay anxiety free</h1>
-                    <h2 class="feature-description">Track the location and estimated time of arrival of your expert from your mobile</h2>
-                </div>
-                <div class="" id="feature-satisfaction">
-                    <img alt="Satisfaction" class="h-16 mx-auto" src="images/satisfaction.svg">
-                    <h1 class="feature-title">Satisfaction guaranteed</h1>
-                    <h2 class="feature-description">All Feex experts are verified and tested to ensure your satisfaction and that the job is up to our high standards</h2>
-                </div>
-                <div class="" id="feature-control">
-                    <img alt="Clock" class="h-16 mx-auto" src="images/control.svg">
-                    <h1 class="feature-title">You are in control</h1>
-                    <h2 class="feature-description">Feex makes it easy to get any job done, simply record the video and Feex will find the solutions for you</h2>
-                </div>
-                <div class="" id="feature-language">
-                    <img alt="Languages" class="h-16 mx-auto" src="images/talk_language.svg">
-                    <h1 class="feature-title">Talk your language</h1>
-                    <h2 class="feature-description">You can take the video in your own language and Feex will match you with a provider that understands you</h2>
-                </div>
-            </div>
-        </section>
-    </div>
-
-    <a name="guarantee"></a>
-    <div class="bg-stripes pt-2 pb-8 md:pt-2 md:pb-32">
-        <section class="site-width">
-            <header class="text-center my-6">
-                <!--                <h1 class="text-primary font-extrabold text-5xl xl:text-6xl">Lorem ipsum</h1>-->
-                <!--                <h2 class="mt-2 text-gray-700 text-base lg:text-xl xl:text-2xl mt-1 uppercase font-sans">Dolor sit amet</h2>-->
-            </header>
-            <div class="flex flex-col justify-center items-center">
-                {{ partial "picture.html" (dict "class" "" "alt" "100% Money-back guarantee" "image" "images/guarantee") }}
-                <p class="mx-8 mt-4 sm:mx-16 md:mx-32 lg:mx-64 xl:mt-6 text-center italic font-sans text-lg">
-                    If you're not happy with our service or the quality of the repair or installation, we will do everything we can to rectify the problem in a fast and effective manner.
-                    If we can't or you are not happy with the Feex service, we will refund you the full amount - <strong>no questions asked.</strong></p>
-                <div class="flex flex-col justify-center items-center mt-16">
-                    {{ partial "picture.html" (dict "class" "w-2/3 mx-auto" "alt" "Reviews" "image" "images/reviews") }}
-                    <button class="download text-lg p-4 mx-0"><a href="https://www.productreview.com.au/listings/feex">Read the reviews...</a></button>
-                </div>
-            </div>
-        </section>
-    </div>
-
-
-    <a name="download"></a>
-    <div class="bg-primary py-16">
-        <section class="site-width">
-            <div class="flex flex-col justify-center items-center">
-
-                {{ partial "picture.html" (dict "class" "w-3/5" "alt" "Frankie Feex BOT" "image" "images/feex_phone_with_frankie") }}
-
-                <div class="flex flex-col">
-                    <div class="lg:inline text-center lg:text-center text-white">
-                        <h2 class="text-gray-100 text-5xl mt-4 lg:pt-4">Let's FEEX it!</h2>
-                        <p class="pt-2 text-3xl">It takes less than one minute!</p>
-                    </div>
-
-                    <div class="pb-3 pt-1 flex flex-row items-center justify-evenly sm:justify-center lg:justify-around lg:pt-6">
-                        <button class="download"><a href="https://m.me/feex.au">FEEX Now!</a></button>
-                    </div>
-                </div>
-
-
-            </div>
-
-        </section>
-    </div>
-
-    <a name="community"></a>
-    <div class="bg-feex-blue pt-20">
-        <section class="site-width">
-            <div class="text-white flex flex-col items-center">
-
-                <p class="uppercase text-gray-100 text-3xl lg:text-5xl font-montserrat">Ask the experts!</p>
-                <p class="mt-4 text-gray-100 text-lg lg:text-xl">Ask any question to the FEEX<br /> experts and get FREE advice</p>
-
-                <button
-                        class="bg-primary p-6 mt-8 uppercase text-bold text-xl rounded-xl shadow-xl cursor-pointer hover:text-primary hover:bg-white transition duration-500 ease-in-out">
-                    <a href="https://www.facebook.com/groups/feexaustralia">Join the community!</a>
-                </button>
-
-                {{ partial "picture.html" (dict "class" "mt-6 w-auto xl:w-full" "alt" "Feex Community" "image" "images/feex_community") }}
-            </div>
-        </section>
-    </div>
 {{ end }}
