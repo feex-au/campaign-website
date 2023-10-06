@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="description" content="Solve any home issue taking a video on your phone">
+    {{ block "og_tags" . }}{{ end }}
+    {{ partial "favicon.html" }}
+    <title>{{ .Title }}</title>
+    {{ $styles := resources.Get "css/main.css" }}
+    {{ $styles = $styles | resources.PostCSS (dict "inlineImports" true) }}
+
+    {{ if hugo.IsProduction }}
+      {{ partial "google-analytics.html" }}
+      {{ partial "fb-pixel.html" }}
+      {{ $styles = $styles | minify }}
+    {{ end }}
+    <link href="{{ $styles.Permalink }}" rel="stylesheet" />
+  </head>
+  <body class="xs:w-full overflow-x-hidden">
+    {{ block "main" . }}{{ end }}
+    {{ partial "footer.html" . }}
+    <script src="js/feex.js"></script>
+  </body>
+</html>

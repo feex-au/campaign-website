@@ -1,0 +1,8 @@
+[build]
+publish = "public"
+command = "hugo --gc --minify -v"
+environment = { HUGO_VERSION = "0.80.0", HUGO_ENABLEGITINFO = "true", NODE_ENV = "production", HUGO_ENV = "production" }
+
+[context.staging]
+command = "hugo --gc -v"
+environment = { NODE_ENV = "production", HUGO_ENV = "staging" }

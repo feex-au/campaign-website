@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    overscroll-behavior: none;
+}
+
+.no-webp .feex-header {
+  background-image: url("/images/header-bg.jpg");
+}
+
+.webp .feex-header {
+  background-image: url("/images/header-bg.webp");
+}
+
+.no-webp .bg-stripes {
+    background-image: url("/images/bg-stripes.png");
+    background-repeat: repeat;
+}
+
+.webp .bg-stripes {
+    background-image: url("/images/bg-stripes.webp");
+    background-repeat: repeat;
+}
+
+body {
+    @apply overscroll-none overflow-x-hidden;
+}
+
+.site-width {
+    @apply max-w-6xl w-full mx-auto px-3;
+}
+
+.social-logo {
+    @apply w-8 sm:w-8 mx-2;
+}
+
+.image-grow {
+    @apply transition duration-500 ease-in-out transform hover:scale-125;
+}
+
+.download {
+    @apply bg-azzurro rounded-md text-gray-100 shadow-xl mt-6 px-8 py-6 text-center font-bold text-2xl hover:text-primary hover:shadow-lg focus:outline-none transition duration-500 ease-in-out;
+}
+
+.feature-title {
+    @apply text-center text-gray-800 mt-2 text-xl xl:text-2xl;
+}
+
+.feature-description {
+    @apply text-center text-gray-600 text-sm xl:text-base;
+}
+
+.step-h1 {
+    @apply text-base sm:text-2xl lg:text-4xl font-bold text-gray-800;
+}
+
+.step-h2 {
+    @apply mt-2 text-base sm:text-xl lg:text-2xl text-gray-700;
+}
+
+@tailwind utilities;
