@@ -22,3 +22,6 @@ staticDir = ["assets", "static" ]
     [[params.socials]]
     name = "instagram"
     url = "https://www.instagram.com/feex_au/"
+
+[minify]
+    disableCSS = True
