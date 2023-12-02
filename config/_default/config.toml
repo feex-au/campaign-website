@@ -1,4 +1,4 @@
-baseURL = "https://feex.com.au/"
+baseURL = ""
 languageCode = "en-us"
 title = "Feex | The home upkeep specialist"
 staticDir = ["assets", "static" ]
@@ -22,6 +22,3 @@ staticDir = ["assets", "static" ]
     [[params.socials]]
     name = "instagram"
     url = "https://www.instagram.com/feex_au/"
-
-[minify]
-    disableCSS = true
