@@ -24,4 +24,4 @@ staticDir = ["assets", "static" ]
     url = "https://www.instagram.com/feex_au/"
 
 [minify]
-    disableCSS = True
+    disableCSS = true
