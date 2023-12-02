@@ -14,7 +14,7 @@
     {{ if hugo.IsProduction }}
       {{ partial "google-analytics.html" }}
       {{ partial "fb-pixel.html" }}
-      {{ $styles = $styles | minify }}
+      {{ $styles = $styles }}
     {{ end }}
     <link href="{{ $styles.Permalink }}" rel="stylesheet" />
   </head>
