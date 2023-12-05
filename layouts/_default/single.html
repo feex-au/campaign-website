@@ -1,0 +1,11 @@
+{{ define "og_tags" }}
+<meta property="og:url" content="{{ .Page.Permalink }}" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="FEEX - The HOME UPKEEP SPECIALIST 🛠👷‍️" />
+<meta property="og:description" content="Feex any home issues taking a video on your phone" />
+<meta property="og:image" content="{{ .Site.BaseURL }}images/og_feex_logo_bianco.png" />
+{{ end }}
+
+{{ define "main" }}
+  {{ .Content }}
+{{ end }}
