@@ -4,7 +4,7 @@ title = "Feex | The home upkeep specialist"
 staticDir = ["assets", "static" ]
 
 [params]
-    copyright = "Feex Australia | All right reserved."
+    copyright = "Feex Australia | All rights reserved."
     preloader = false  # The svg is missing! 
 
     images = ["assets/images/feex_header_og.png"]
