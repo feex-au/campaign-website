@@ -16,11 +16,22 @@
       {{ partial "fb-pixel.html" }}
       {{ $styles = $styles | minify | fingerprint }}
     {{ end }}
+
     <link href="{{ $styles.Permalink }}" rel="stylesheet" />
   </head>
+
+  {{ partial "header.html" .}}
+
   <body class="xs:w-full overflow-x-hidden">
-    {{ block "main" . }}{{ end }}
+
+    <div class="bg-tertiary pt-10">
+      <section class="site-width">
+        {{ block "main" . }}{{ end }}
+      </section>
+    </div>
+
     {{ partial "footer.html" . }}
     <script src="js/feex.js"></script>
   </body>
+
 </html>

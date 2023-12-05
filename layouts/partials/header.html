@@ -1,0 +1,28 @@
+<header>
+  <nav class="flex items-center justify-between p-4 bg-primary text-white">
+      <!-- Logo on the far left -->
+      <div class="flex items-center">
+          <a href="/">
+              <img alt="Feex Logo" class="p-2 w-28" src="{{ .Site.BaseURL }}images/logo_white.svg">
+          </a>
+      </div>
+
+      <!-- Menu on the far right -->
+      <div class="flex items-center">
+          <div class="hidden md:flex md:justify-around lg:text-lg text-white">
+              <a class="hover:text-secondary px-3" href="/contact/">Contact</a>
+              <!-- Add more menu items as needed -->
+          </div>
+      </div>
+      <div class="h-10 w-10 text-white pr-2 pt-1 cursor-pointer md:hidden" id="burger">
+        <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path d="M4 6h16M4 12h16M4 18h16" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} />
+        </svg>
+      </div>
+
+      <!-- The menu shown when the burger is pressed -->
+      <div class="hidden text-white pl-8 pb-1 uppercase text-sm sm:text-base contact" id="menu">
+          <a class="hover:text-secondary px-3" href="/contact/">Contact</a>
+      </div>
+  </nav>
+</header>
