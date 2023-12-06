@@ -4,21 +4,4 @@ title = "Feex | The home upkeep specialist"
 staticDir = ["assets", "static" ]
 
 [params]
-    copyright = "Feex Australia | All rights reserved."
-    preloader = false  # The svg is missing! 
 
-    images = ["assets/images/feex_header_og.png"]
-    title = "Feex: the home upkeep specialist"
-    description = "Find the right person at the right time to feex any issue in your house"
-
-    [[params.socials]]
-    name = "facebook"
-    url = "https://www.facebook.com/feexaustralia/"
-
-    [[params.socials]]
-    name = "twitter"
-    url = "https://twitter.com/AusFeex "
-
-    [[params.socials]]
-    name = "instagram"
-    url = "https://www.instagram.com/feex_au/"
