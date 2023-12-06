@@ -1,34 +1,40 @@
 <footer class="bg-gray-900">
     <section class="site-width">
         <div class="text-gray-400 text-xs sm:text-sm flex flex-row justify-between items-center py-12 sm:px-2">
-
-
             <div class="flex flex-col">
                 <p class="mb-1"><a href="/docs/feex-terms-and-conditions.pdf">Terms and Conditions</a> - <a href="/docs/feex-privacy-policy.pdf">Privacy Policy</a></pc>
-                <p>© {{ now.Format "2006"}} Feex Australia <span class="hidden sm:inline">|</span><br class="inline sm:hidden"/> All rights reserved</p>
+                <p>© {{ now.Format "2006"}} Feex Australia <span class="hidden sm:inline">|</span><br class="inline sm:hidden"/> All Rights Reserved</p>
             </div>
 
             <div class="flex flex-row justify-between items-center">
                 <div class="social-logo">
                     <a href="https://www.facebook.com/feex.au/">
-                        {{ partial "picture.html" (dict "class" "image-grow" "alt" "Facebook Logo" "image" "images/facebook") }}
+                        <div class="image-grow">
+                            <img src="{{ .Site.BaseURL }}/images/facebook.png" alt="Facebook Logo">
+                        </div>
                     </a>
                 </div>
 
                 <div class="social-logo">
                     <a href="https://twitter.com/feex_au">
-                        {{ partial "picture.html" (dict "class" "image-grow" "alt" "Twitter Logo" "image" "images/twitter") }}
+                        <div class="image-grow">
+                            <img src="{{ .Site.BaseURL }}/images/twitter.png" alt="Twitter Logo">
+                        </div>
                     </a>
                 </div>
                 <div class="social-logo">
                     <a href="https://www.instagram.com/feex_au/">
-                        {{ partial "picture.html" (dict "class" "image-grow" "alt" "Instagram Logo" "image" "images/instagram") }}
+                        <div class="image-grow">
+                            <img src="{{ .Site.BaseURL }}/images/instagram.png" alt="Instagram Logo">
+                        </div>
                     </a>
                 </div>
 
                 <div class="social-logo">
                     <a href="https://www.linkedin.com/company/feexau">
-                        {{ partial "picture.html" (dict "class" "image-grow" "alt" "Linkedin Logo" "image" "images/linkedin") }}
+                        <div class="image-grow">
+                            <img src="{{ .Site.BaseURL }}/images/linkedin.png" alt="Linkedin Logo">
+                        </div>
                     </a>
                 </div>
 
