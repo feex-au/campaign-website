@@ -4,4 +4,5 @@ title = "Feex | The home upkeep specialist"
 staticDir = ["assets", "static" ]
 
 [params]
+    feexWizardURL = "https://localhost:8000/app/wizard/"
 

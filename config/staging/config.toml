@@ -1,1 +1,4 @@
 baseURL = "https://staging--campaign-website-1.netlify.app/"
+
+[params]
+    feexWizardURL = "https://www.feex.com.au/app/wizard/"

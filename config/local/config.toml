@@ -1,1 +1,4 @@
 baseURL = "http://localhost/"
+
+[params]
+    feexWizardURL = "https://localhost:8000/app/wizard/"

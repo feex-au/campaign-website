@@ -1,1 +1,4 @@
 baseURL = "https://wallrepairmonasharea.com/"
+
+[params]
+    feexWizardURL = "https://www.feex.com.au/app/wizard/"
