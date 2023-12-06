@@ -10,7 +10,14 @@ module.exports = {
                 'secondary': '#1F7A8C',
                 'tertiary': '#F2F5F9',
                 'feex-blue': '#242E6C',
-                'azzurro': '#7A87D8',
+                'azzurro': {
+                    300: '#afb7e8',
+                    400: '#959fe0',
+                    500: '#7A87D8',
+                    600: '#626cad',
+                    700: '#495182',
+
+                },
             },
             fontFamily: {
                 'montserrat': ['Montserrat'],
