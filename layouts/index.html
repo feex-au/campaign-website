@@ -1,42 +1,17 @@
 {{ define "og_tags" }}
-<meta property="og:url" content="{{ .Page.Permalink }}" />
-<meta property="og:type" content="article" />
-<meta property="og:title" content="FEEX - The HOME UPKEEP SPECIALIST 🛠👷‍️" />
-<meta property="og:description" content="Feex any home issues taking a video on your phone" />
-<meta property="og:image" content="{{ .Site.BaseURL }}images/og_feex_logo_bianco.png" />
+<meta property="og:url" content="{{ .Page.Permalink }}"/>
+<meta property="og:type" content="article"/>
+<meta property="og:title" content="FEEX - The HOME UPKEEP SPECIALIST 🛠👷‍️"/>
+<meta property="og:description" content="Feex any home issues taking a video on your phone"/>
+<meta property="og:image" content="{{ .Site.BaseURL }}images/og_feex_logo_bianco.png"/>
 {{ end }}
 
 {{ define "main" }}
 <div class="bg-tertiary">
-  <section class="site-width">
-    <div class="px-6">
-      <p class="text-base font-semibold leading-7 text-indigo-600">Find out why</p>
-      <h1 class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">The why behind Feex</h1>
-      <p class="mt-6 text-xl leading-8 text-gray-700">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas bibendum justo in mauris eleifend, non finibus purus accumsan. Phasellus lacinia in augue eget fermentum. Integer vel viverra lorem, sit amet imperdiet sem. Vivamus vel augue metus. Fusce et vestibulum felis. Sed metus odio, lacinia ut velit eu, porta blandit lacus. Ut sit amet sollicitudin orci. Cras lacinia luctus risus, ac feugiat metus malesuada sit amet. Fusce vel vehicula turpis. Donec dictum auctor lacus, at congue leo. Suspendisse vehicula diam a libero pharetra convallis et vel massa.
-      </p>
-      <p class="mt-6 text-xl leading-8 text-gray-700">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas bibendum justo in mauris eleifend, non finibus purus accumsan. Phasellus lacinia in augue eget fermentum. Integer vel viverra lorem, sit amet imperdiet sem. Vivamus vel augue metus. Fusce et vestibulum felis. Sed metus odio, lacinia ut velit eu, porta blandit lacus. Ut sit amet sollicitudin orci. Cras lacinia luctus risus, ac feugiat metus malesuada sit amet. Fusce vel vehicula turpis. Donec dictum auctor lacus, at congue leo. Suspendisse vehicula diam a libero pharetra convallis et vel massa.
-      </p>
-    </div>
-
-    <div class="px-6">
-      <h2 class="mt-8 text-2xl font-semibold tracking-tight text-gray-700 sm:text-2xl">The current state of home repairs</h2>
-      <p class="mt-6 text-xl leading-8 text-gray-700">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas bibendum justo in mauris eleifend, non finibus purus accumsan. Phasellus lacinia in augue eget fermentum. Integer vel viverra lorem, sit amet imperdiet sem. Vivamus vel augue metus. Fusce et vestibulum felis. Sed metus odio, lacinia ut velit eu, porta blandit lacus. Ut sit amet sollicitudin orci. Cras lacinia luctus risus, ac feugiat metus malesuada sit amet. Fusce vel vehicula turpis. Donec dictum auctor lacus, at congue leo. Suspendisse vehicula diam a libero pharetra convallis et vel massa.
-      </p>
-    </div>
-
-    <div class="px-6">
-      <h2 class="mt-8 text-2xl font-semibold tracking-tight text-gray-700 sm:text-2xl">Our vision</h2>
-      <p class="mt-6 text-xl leading-8 text-gray-700">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas bibendum justo in mauris eleifend, non finibus purus accumsan. Phasellus lacinia in augue eget fermentum. Integer vel viverra lorem, sit amet imperdiet sem. Vivamus vel augue metus. Fusce et vestibulum felis. Sed metus odio, lacinia ut velit eu, porta blandit lacus. Ut sit amet sollicitudin orci. Cras lacinia luctus risus, ac feugiat metus malesuada sit amet. Fusce vel vehicula turpis. Donec dictum auctor lacus, at congue leo. Suspendisse vehicula diam a libero pharetra convallis et vel massa.
-      </p>
-    </div>
-
-    {{ partial "wizard-start-link.html" . }}
-
-  </section>
+    <section class="site-width">
+        <div class="px-6">
+        {{ .Content }}
+        </div>
+    </section>
 </div>
-
 {{ end }}

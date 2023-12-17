@@ -28,11 +28,15 @@ html {
 }
 
 body {
-    @apply overscroll-none overflow-x-hidden;
+    @apply text-2xl overscroll-none overflow-x-hidden sm:text-xl;
+}
+
+ul {
+    @apply mt-2 list-none;
 }
 
 .site-width {
-    @apply max-w-6xl w-full mx-auto px-3;
+    @apply max-w-6xl w-full mx-auto px-8;
 }
 
 .social-logo {
@@ -58,5 +62,23 @@ body {
 .step-h2 {
     @apply mt-2 text-base sm:text-xl lg:text-2xl text-gray-700;
 }
+
+p {
+    @apply mt-6 leading-8 text-gray-700;
+}
+
+
+h3 {
+    @apply my-1 text-2xl font-semibold tracking-tight text-gray-700 sm:text-xl;
+}
+
+h2 {
+    @apply my-4 text-3xl font-semibold tracking-tight text-gray-700 sm:text-2xl;
+}
+
+h1 {
+    @apply mt-2 text-5xl font-bold tracking-tight text-gray-900 sm:text-4xl;
+}
+
 
 @tailwind utilities;
