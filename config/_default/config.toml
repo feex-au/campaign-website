@@ -6,3 +6,7 @@ staticDir = ["assets", "static" ]
 [params]
     feexWizardURL = "https://localhost:8000/app/wizard/"
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
