@@ -28,7 +28,7 @@ html {
 }
 
 body {
-    @apply text-2xl overscroll-none overflow-x-hidden sm:text-xl;
+    @apply text-3xl overscroll-none overflow-x-hidden sm:text-xl;
 }
 
 ul {
