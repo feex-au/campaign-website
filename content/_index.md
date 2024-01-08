@@ -31,16 +31,34 @@ Feex is a better way! <br />
 and it only takes 30 seconds!
 </p>
 
-<div class="border-4 border-dashed border-gray-600 py-8 px-32 bg-red-200">
-
-### Step One: Record a Video
-Simply take out your phone, record a quick video of your wall damage and click submit. No forms to fill out. No ambiguity. it will feel like sending the video to a friend. We take it from there. 
-
-### Step Two: Schedule a Time
-We’ll connect your request with our database of trusted and vetted tradies. Once the tradie is identified, you'll receive an accurate quote. You can accept or reject the quote without any obligation. 
-
-### Step Three: Enjoy a Fixed Wall
-The wall repair man will show up on time, be extremely professional, clean, and respectful of your home, and quickly repair your wall.
+<div class="border-4 border-dashed border-gray-600 py-8 px-32 bg-red-200 flex flex-col">
+    <div>
+        <div class="text-primary text-lg mb-1 uppercase">
+            Step One: Record a Video
+        </div>
+        <div>
+            Simply take out your phone, record a quick video of your wall damage and click submit. No forms to fill out. No
+            ambiguity. it will feel like sending the video to a friend. We take it from there.
+        </div>
+    </div>
+    <div>
+        <div class="text-primary text-lg mt-8 mb-1 uppercase">
+            Step Two: Schedule a Time
+        </div>
+        <div>
+            We’ll connect your request with our database of trusted and vetted tradies. Once the tradie is identified, you'll
+            receive an accurate quote. You can accept or reject the quote without any obligation.
+        </div>
+    </div>
+    <div>
+        <div class="text-primary text-lg mt-8 mb-1 uppercase">
+            Step Three: Enjoy a Fixed Wall
+        </div>
+        <div>
+            The wall repair man will show up on time, be extremely professional, clean, and respectful of your home, 
+    and quickly repair your wall.
+        </div>
+    </div>
 </div>
 
 <p class="my-16 text-4xl font-black ">
@@ -48,182 +66,78 @@ We take the stress out<br/>
 Of fixing your wall
 </p>
 
-
-
 {{< image-placeholder >}}
 
-
-
-THINK ABOUT IT… VIDEO IS BETTER
-WHEN YOUR ON THE PHONE IT’S HARD TO EXPLAIN THE PROBLEM.
-
-
-Where is the damage? 
-
-Is it high or low on the wall?
-
-What kind of wall is it? Plaster? Cement? Brick? Render? 
-
-Is it an external or internal wall?
-
-Is the wall tiled?
-
-What colour is the wall?
-
-
-
-FEEX SIMPLIFIES ALL OF THAT WITH ONE VIDEO
-
-With Feex, all you need to do is create a video of the wall damage, showing wall details, colour, and framing the size of the damage. Feex technology will analyse the video and connect you with the nearest tradie for an accurate and quick quote.
-
-IT REALLY IS THAT EASY
-
-{{< wizard-start-link >}}
-
-
-
-
-<Insert Testimonials>
-
-
-
-THE BEST SPECIALIZED APP OUT THERE FOR MONASH HOME REPAIRS
-
-Sure, you can use sites like Airtasker and get a quote, but are you certain that an app where you can find everyone from babysitters to low-cost movers is the best option for entrusting your home maintenance?
-
-
-WE TAKE THE GUESSING OUT OF REPAIR WORK
-
-You can search for a tradie nearby, but do you know which tradie is right for your case? To provide a quote, the tradie needs to come to your house to see the details and offer a quote, but how many tradies do you have to go through before you find the right one? 
-
-
-
-WE HANDLE ALL OF THE FINDING AND VETTING…
-SO, YOU DON’T HAVE TO!
-
-By using Feex, the video is analyzed, and all hidden details you might not know are used to identify the most suitable tradie near you to make the repair. No more wasted time on calls to various tradies trying to explain the problem.
-
-
-
-WHY NOT TRY IT? YOU MIGHT BE SURPRISED AT HOW EASY FEEX CAN BE!
-
-[FEEX IT NOW!]
-
-
-
-
-<Insert Testimonials>
-
-
-Here are the most frequently asked questions:
-
-Do I have to pay anything for the service?
-The service is included in the quote. You only pay if you accept.
-
-Is the work guaranteed?
-Yes, the work is 100% guaranteed.
-
-
-
-
-Did someone accidentally bump the wall? 
-
-Did you put a hole in the wall moving furniture?
-
-Did the kids get to rowdy and put a hole in the wall? 
-
-It doesn’t matter how that hole got there, FEEX makes it super easy to have it looking brand new in no time without the
-hassle. No more:
-
-- Spending hours searching online for a reputable tradie you trust.
-
-- Trying to do it yourself and wondering what to buy at the store.
-
-- Calling around hoping someone answers and can help. 
-
-- Spending 30 minutes on the phone trying to explain the problem.
-
-
-## FEEX IS A BETTER WAY!
-## AND IT ONLY TAKES 30 SECONDS!
-
-
-STEP ONE: RECORD A VIDEO
-
-Simply take out your phone, record a quick video of your wall damage and click submit. No forms to fill out. No
-ambiguity. it will feel like sending the video to a friend. We take it from there.
-
-STEP TWO: SCHEDULE A TIME
-
-We’ll connect your request with our database of trusted and vetted tradies. Once the tradie is identified, you'll
-receive an accurate quote. You can accept or reject the quote without any obligation.
-
-STEP THREE: ENJOY A FIXED WALL
-
-The wall repair man will show up on time, be extremely professional, clean, and respectful of your home, and quickly
-repair your wall.
-
-
-## Do you have a hole in your wall that you need fixed?
-
-{{< wizard-start-link >}}
-
-Rhink about it… video is better
+<p class="my-16 text-4xl font-black">
+Think about it… Video is better! <br />
 When your on the phone it’s hard to explain the problem.
+</p>
 
-Where is the hole? 
+<div class="flex my-6">
+    <div>Where is the damage?</div>
+    <div>Is it high or low on the wall?</div>
+    <div>What kind of wall is it? Plaster? Cement? Brick? Render?</div>
+    <div>Is it an external or internal wall?</div>
+    <div>Is the wall tiled?</div>
+    <div>What colour is the wall?</div>
+</div>
 
-Is it high or low on the wall?
 
-What kind of wall is it? Plaster? Cement? Brick? Render? 
+<p class="my-16 text-4xl font-black">
+FEEX SIMPLIFIES ALL OF THAT WITH ONE VIDEO
+</p>
 
-Is it an external or internal wall?
+With Feex, all you need to do is create a video of the wall damage, showing wall details, colour, 
+and framing the size of the damage. Feex technology will analyse the video and connect you with 
+the nearest tradie for an accurate and quick quote.
 
-Is the wall tiled?
-
-What colour is the wall?
-
-# FEEX simplifies all of that with one video
-
-With Feex, all you need to do is create a video of the wall damage, showing wall details, colour, and framing the size
-of the damage. 
-
-Feex technology will analyse the video and connect you with the nearest tradie for an accurate and quick
-quote.
-
-**IT REALLY IS THAT EASY!**
+## Yes, it really is that easy
 
 {{< wizard-start-link >}}
 
-<Insert Testimonials>
 
-## THE BEST SPECIALIZED APP OUT THERE FOR MONASH HOME REPAIRS
+<div class="border-4 border-dashed border-gray-600 py-8 px-32 bg-red-200">
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci blanditiis consequuntur debitis dicta dolore 
+dolorem ea eos, expedita, in labore magnam neque nesciunt perferendis possimus quidem quos reiciendis rem sunt.
+<div class="text-right italic mt-4">Marcel Porrovecchio</div>
+</div>
+
+
+<p class="my-16 text-4xl font-black">
+The best specialized app out there for monash home repairs
+</p>
 
 Sure, you can use sites like Airtasker and get a quote, but are you certain that an app where you can find everyone from
 babysitters to low-cost movers is the best option for entrusting your home maintenance?
 
-
-## WE TAKE THE GUESSING OUT OF REPAIR WORK
+# We take the guessing out of repair work
 
 You can search for a tradie nearby, but do you know which tradie is right for your case? To provide a quote, the tradie
 needs to come to your house to see the details and offer a quote, but how many tradies do you have to go through before
 you find the right one?
 
-## WE HANDLE ALL OF THE FINDING AND VETTING… SO, YOU DON’T HAVE TO!
+We handle all of the finding and vetting…
+So, you don’t have to!
 
 By using Feex, the video is analyzed, and all hidden details you might not know are used to identify the most suitable
 tradie near you to make the repair. No more wasted time on calls to various tradies trying to explain the problem.
 
-## WHY NOT TRY IT? YOU MIGHT BE SURPRISED AT HOW EASY FEEX CAN BE!
+<p class="my-16 text-4xl font-black">
+Why not try it? you might be surprised at how easy FEEX can be!
+</p>
 
 {{< wizard-start-link >}}
 
-<Insert Testimonials>
+<div class="border-4 border-dashed border-gray-600 py-8 px-32 bg-red-200">
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci blanditiis consequuntur debitis dicta dolore 
+dolorem ea eos, expedita, in labore magnam neque nesciunt perferendis possimus quidem quos reiciendis rem sunt.
+<div class="text-right italic mt-4">Marcel Porrovecchio</div>
+</div>
 
-## Here are the most frequently asked questions:
+<h1 class="mt-6">FAQ</h1>
 
-### Do I have to pay anything for the service?
-_The service is included in the quote. You only pay if you accept._
+## Do I have to pay anything for the service?
+<em>The service is included in the quote. You only pay if you accept.</em>
 
-### Is the work guaranteed?
-_Yes, the work is 100% guaranteed._
+## Is the work guaranteed?
+<em>Yes, the work is 100% guaranteed.</em>
